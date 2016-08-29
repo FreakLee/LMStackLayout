@@ -69,8 +69,7 @@ static const CGFloat kPadding = 10.0;
 
 #pragma mark - PhotoCollectionViewCellDelegate 
 - (void)photoCollectionViewCell:(LMPhotoCollectionViewCell *)photoCell didShowAttitude:(LMPhotoAttitude)photoAttitude {
-    
-    NSLog(@"%ld",photoAttitude);
+
     if (photoAttitude == LMPhotoAttitudeNormal) {
         return;
     }
