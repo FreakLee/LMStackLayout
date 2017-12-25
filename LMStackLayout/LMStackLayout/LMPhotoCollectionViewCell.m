@@ -147,7 +147,7 @@
         [UIView animateWithDuration:0.25
                          animations:^{
                              self.center = self.originalPoint;
-                             self.transform = CGAffineTransformMakeRotation(0);
+                             self.transform = CGAffineTransformIdentity ;
                          }];
     }
     [self showPhotoAttitude:attitude];
